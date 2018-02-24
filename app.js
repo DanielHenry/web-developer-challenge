@@ -11,5 +11,5 @@ function httpGet(theUrl)
 }
 
 var jsonResult = httpGet('https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2Fwwwid');
-var objResult = JSON.parse(jsonResult);
-document.getElementById('content').innerHTML = objResult;
+//var objResult = JSON.parse(jsonResult);
+document.getElementById('content').innerHTML = jsonResult;
