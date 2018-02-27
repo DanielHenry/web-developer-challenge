@@ -17,6 +17,6 @@ var rssArray = objResponse.items;
 var parentDivTag = document.getElementById('content');
 for (var i=0; i<rssArray.length; i++){
     var childDivTag = document.createElement('div');
-    childDivTag.appendChild(rssArray[i]);
+    childDivTag.innerHTML = rssArray[i];
     parentDivTag.appendChild(childDivTag);
 }
