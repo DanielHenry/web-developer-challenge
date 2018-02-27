@@ -19,10 +19,12 @@ for (var i=0; i<rssArray.length; i++){
     var childDivTag = document.createElement('div');
     var imgTag = document.createElement('img');
     imgTag.setAttribute('src',rssArray[i].thumbnail);
-    var textareaTag = document.createElement('textarea');
-    textareaTag.innerHTML = rssArray[i].title;
+    var brTag0 = document.createElement('br');
+    var textTag = document.createElement('text');
+    textTag.innerHTML = rssArray[i].title;
     childDivTag.appendChild(imgTag);
-    childDivTag.appendChild(textareaTag);
+    childDivTag.appendChild(brTag0);
+    childDivTag.appendChild(textTag);
     parentDivTag.appendChild(childDivTag);
     var brTag1 = document.createElement('br');
     var brTag2 = document.createElement('br');
