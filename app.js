@@ -18,7 +18,7 @@ var parentDivTag = document.getElementById('content');
 for (var i=0; i<rssArray.length; i++){
     var childDivTag = document.createElement('div');
     var imgTag = document.createElement('img');
-    imgTag.setAttribute('href',rssArray[i].thumbnail);
+    imgTag.setAttribute('src',rssArray[i].thumbnail);
     var textTag = document.createElement('text');
     textTag.innerHTML = rssArray[i].title;
     childDivTag.appendChild(imgTag);
