@@ -17,6 +17,12 @@ var rssArray = objResponse.items;
 var parentDivTag = document.getElementById('content');
 for (var i=0; i<rssArray.length; i++){
     var childDivTag = document.createElement('div');
-    childDivTag.innerHTML = rssArray[i];
+    childDivTag.innerHTML = rssArray[i].description;
     parentDivTag.appendChild(childDivTag);
+    var brTag1 = document.createElement('br');
+    var brTag2 = document.createElement('br');
+    var brTag3 = document.createElement('br');
+    parentDivTag.appendChild(brTag1);
+    parentDivTag.appendChild(brTag2);
+    parentDivTag.appendChild(brTag3);
 }
