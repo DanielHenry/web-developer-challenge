@@ -16,6 +16,9 @@ var objResponse = JSON.parse(jsonResponse);
 var titleTags = document.getElementsByTagName('title');
 titleTags[0].innerHTML = objResponse.feed.title;
 
+var h2Tags = document.getElementsByTagName('h2');
+h2Tags[0].innerHTML = objResponse.feed.title;
+
 var rssArray = objResponse.items;
 var parentDivTag = document.getElementById('content');
 for (var i=0; i<rssArray.length; i++){
