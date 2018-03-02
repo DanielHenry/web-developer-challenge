@@ -22,6 +22,7 @@ for (var i=0; i<rssArray.length; i++){
     var childDivTag = document.createElement('div');
     var imgTag = document.createElement('img');
     imgTag.setAttribute('src',rssArray[i].thumbnail);
+    imgTag.setAttribute('width','20%');
     var brTag0 = document.createElement('br');
     var textTag = document.createElement('text');
     textTag.innerHTML = rssArray[i].title;
