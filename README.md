@@ -1,6 +1,5 @@
-Web Developer Challenge
+WWWID RSS Reader
 ===
-This is my first web developer challenge.
+Tantangan dari wwwid untuk membuat aplikasi web dapat digunakan kurang dari 5 menit.
 
-Web developer challenge for make website can be used less than 5 minutes.<br>
-This challenge is presented by ...<br>
+Kriteria yang harus dipenuhi adalah sebagai berikut:<br>
