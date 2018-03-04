@@ -21,3 +21,7 @@ Kriteria yang harus dipenuhi adalah sebagai berikut:<br>
 9. Mendaftarkan aplikasi web tersebut di form submission (akan diupdate lebih lanjut) dengan mencantumkan URL web app, Github repo URL, Lighthouse score, first paint time, first interactive time, dan Medium article URL.<br><br>
 10. Update progress di Twitter dengan hashtag #WWWIDChallenge<br><br>
 11. Menambahkan topic wwwid dan wwwidchallenge di Github repo agar muncul di daftar repo para peserta tantangan.<br><br>
+
+### Teknik Pengembangan
+
+Coming soon...
