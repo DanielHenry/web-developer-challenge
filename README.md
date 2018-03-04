@@ -12,7 +12,7 @@ Kriteria yang harus dipenuhi adalah sebagai berikut:<br>
     * thumbnail artikel
     * satu paragraf artikel.
     * tanggal artikel di-publish
-Dan halaman konten detail di mana sama seperti daftar konten namun memunculkan konten artikel keseluruhan, bukan hanya 1 paragraf.<br><br>
+\Dan halaman konten detail di mana sama seperti daftar konten namun memunculkan konten artikel keseluruhan, bukan hanya 1 paragraf.<br><br>
 4. Feed bisa di-filter menggunakan kategori, di mana kategori ini bisa diambil dari field categories di tiap konten. Feed filter harus punya unique URL sehingga kita bisa mengakses konten terkait kategori tersebut langsung via URL misalnya https://my-reader.app/cat/pwa yang otomatis menampilkan konten PWA saja.<br><br>
 5. Bisa mencapai skor Lighthouse untuk PWA dan Performance diatas 90.<br><br>
 6. Melakukan testing menggunakan Webpagetest mode yang easy dan mengaktifkan Lighthouse audit pada saat melakukan test.<br><br>
