@@ -29,7 +29,7 @@ if (objResponse.status=='failed'){
         childDivTag.setAttribute('class','item');
         var imgTag = document.createElement('img');
         imgTag.setAttribute('src',rssArray[i].thumbnail);
-        imgTag.setAttribute('width','30%');
+        imgTag.setAttribute('width','10%');
         var brTag0 = document.createElement('br');
         var textTag = document.createElement('text');
         textTag.innerHTML = rssArray[i].title;
