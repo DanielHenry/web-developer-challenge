@@ -22,6 +22,9 @@ if (objResponse.status=='failed'){
     var h2Tags = document.getElementsByTagName('h2');
     h2Tags[0].innerHTML = objResponse.feed.title;
 
+    var logoTitle = document.getElementById('logotitle');
+    logoTitle.innerHTML = objResponse.feed.title;
+
     var rssArray = objResponse.items;
     var parentDivTag = document.getElementById('content');
     for (var i=0; i<rssArray.length; i++){
