@@ -20,8 +20,7 @@
     isLoading: true,
     spinner: document.querySelector('.loader'),
     cardTemplate: document.querySelector('.cardTemplate'),
-    container: document.querySelector('.main'),
-    addDialog: document.querySelector('.dialog-container'),
+    container: document.querySelector('.main')
   };
 
 
@@ -40,39 +39,6 @@
     // Open/show the add new city dialog
     app.toggleFilterDialog(true);
   });
-
-  document.getElementById('butAddCity').addEventListener('click', function() {
-    // Add the newly selected city
-    var select = document.getElementById('selectCityToAdd');
-    var selected = select.options[select.selectedIndex];
-    var key = selected.value;
-    var label = selected.textContent;
-    // TODO init the app.selectedCities array here
-    app.getForecast(key, label);
-    // TODO push the selected city to the array and save here
-    app.toggleFilterDialog(false);
-  });
-
-  document.getElementById('butAddCancel').addEventListener('click', function() {
-    // Close the add new city dialog
-    app.toggleFilterDialog(false);
-  });
-
-
-  /*****************************************************************************
-   *
-   * Methods to update/refresh the UI
-   *
-   ****************************************************************************/
-
-  // Toggles the visibility of the add new city dialog.
-  app.toggleFilterDialog = function(visible) {
-    if (visible) {
-      app.addDialog.classList.add('dialog-container--visible');
-    } else {
-      app.addDialog.classList.remove('dialog-container--visible');
-    }
-  };
 
   // Updates a weather card with the latest weather forecast. If the card
   // doesn't already exist, it's cloned from the template.
